@@ -54,7 +54,7 @@ body {
   display: none;
 }
 .hidden2 {
-    display: block;
+  display: block;
 }
 
 /* Game */
@@ -113,8 +113,35 @@ body {
 }
 
 /* Textures */
-
-
+#ground {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.tile {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+#above {
+  /* height: 20%; */
+  background: pink;
+  background-image: url(../assets/textures/dirtWgrass.png);
+  display: flex;
+  flex-wrap: wrap;
+}
+#under {
+  /* height: 80%; */
+  background-color: green;
+  background-image: url(../assets/textures/dirt.webp);
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* Game-Board */
 .game-board {
@@ -122,6 +149,9 @@ body {
   height: 90%;
   background-color: rgb(137, 209, 231);
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .sun {
   width: 70px;
@@ -130,4 +160,3 @@ body {
   background: yellow;
   margin: 20px;
 }
-

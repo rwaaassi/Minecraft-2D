@@ -11,11 +11,13 @@ class Game {
     landingPage.classList.display = "none";
     game.classList.display = "block";
   }
-  updateWorld() {}
+  updateWorld() {
+    
+  }
   resetGame() {
     const rest = getElementById("rest-board-button");
     rest.addEventListener("click", () => {
-        
+
     })
   }
 }
