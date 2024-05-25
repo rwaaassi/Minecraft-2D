@@ -53,6 +53,9 @@ body {
 .hidden {
   display: none;
 }
+.hidden2 {
+    display: block;
+}
 
 /* Game */
 
