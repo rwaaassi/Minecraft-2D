@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <title>Minecraft-2D</title>
+</head>
+<body>
+    <section id="landing-page" class="landing-page hidden">
+        <ul class="instructions">
+            <li>
+                YOU NEED TO PICK A TOOL.
+            </li>
+            <li>
+                USE THE TOOL TO TAKE OFF A TILE FROM THE SCREEN.
+            </li>
+            <li>
+                YOU CAN PLACE THE TILE BACK WHENEVER AND WHEREVER YOU WANT.
+            </li>
+        </ul>
+        <button class="start-game">
+            Start Game
+        </button>
+    </section>
+    <section class="game-container">
+        <section class="inventory">
+            <div class="tools">
+                <div class="axe tool"></div>
+                <div class="pickaxe tool"></div>
+                <div class="shovel tool"></div>
+            </div>
+            <div class="inventory-box"></div>
+            <button id="rest-board-button">Reset
+            </button>
+        </section>
+        <section class="game-board">
+            <div class="sun"></div>
+        </section>
+            
+         </section>
+   <script type="module" src="src/utils/main.js"></script> 
+</body>
+</html>
