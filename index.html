@@ -10,7 +10,7 @@
     <title>Minecraft-2D</title>
   </head>
   <body>
-    <section id="landing-page" class="landing-page hidden">
+    <section id="landing-page" class="landing-page  hidden">
       <ul class="instructions">
         <li>YOU NEED TO PICK A TOOL.</li>
         <li>USE THE TOOL TO TAKE OFF A TILE FROM THE SCREEN.</li>
@@ -18,6 +18,7 @@
       </ul>
       <button class="start-game" id="start-game">Start Game</button>
     </section>
+    <section class="game-container1 hidden2">
     <section class="game-container hidden2">
       <section class="inventory">
         <div class="tools">
@@ -30,12 +31,18 @@
       </section>
       <section class="game-board">
         <div class="sun"></div>
+        <!-- <div class="tool axe" data-tool="axe">Axe</div>
+        <div class="tool pickaxe" data-tool="pickaxe">Pickaxe</div>
+        <div class="tool shovel" data-tool="shovel">Shovel</div> -->
         <div id="ground">
+          <div id="tree"></div>
           <div id="above" style="height: 20%"></div>
           <div id="under" style="height: 80%"></div>
         </div>
       </section>
     </section>
-    <script type="module" src="src/utils/main.js"></script>
+    </section>
+    <script src="../minecraft-2d/main2.js"></script>
+    <!-- <script type="module" src="src/utils/main.js"></script> -->
   </body>
 </html>
